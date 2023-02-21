@@ -1,0 +1,67 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Ido Akkerman
+    - name: Date of Birth
+      value: 2ndth Februari 1980
+    - name: Languages
+      value: English, Dutch
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: Technische Universiteit Delft, Delft, Netherlands
+      year: 2009
+
+    - title: MSc/Ir
+      institution: Technische Universiteit Delft, Delft, Netherlands
+      year: 2004
+      description:
+        - Cum Laude
+    - title: BSc
+      institution: Technische Universiteit Delft, Delft, Netherlands
+      year: 2002
+      description:
+        - Cum Laude
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Assistant Professor of Ship Hydromechanics
+      institution: Technische Universiteit Delft, Delft, Netherlands
+      year: 2014 - Now
+
+    - title: Assistant Professor of Ship Hydromechanics
+      institution: Durham University, Durham, UK
+      year: 2012-2014
+
+    - title: Post-doc
+      institution: University of California, San Diego, USA
+      year: 2009 - 2012
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/mfem/mfem">mfem</a>
+      year: 2011-now
+      description: A modular high-performance finite-element library
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
