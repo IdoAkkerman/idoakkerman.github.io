@@ -4,7 +4,7 @@
     - name: Full Name
       value: Ido Akkerman
     - name: Date of Birth
-      value: 2ndth Februari 1980
+      value: 2nd Februari 1980
     - name: Languages
       value: English, Dutch
 
@@ -16,8 +16,6 @@
       year: 2009
 
     - title: MSc/Ir
-      institution: Technische Universiteit Delft, Delft, Netherlands
-      year: 2004
       description:
         - Cum Laude
     - title: BSc
@@ -33,11 +31,11 @@
       institution: Technische Universiteit Delft, Delft, Netherlands
       year: 2014 - Now
 
-    - title: Assistant Professor of Ship Hydromechanics
+    - title: Assistant Professor of Mechanics
       institution: Durham University, Durham, UK
       year: 2012-2014
 
-    - title: Post-doc
+    - title: Post-doc in Isogeometric two-fluid simulation
       institution: University of California, San Diego, USA
       year: 2009 - 2012
 
@@ -48,20 +46,25 @@
       year: 2011-now
       description: A modular high-performance finite-element library
 
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Finite elements for fluids
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Stabilized methods
+        - Multiscale methods
+        - Residual-based LES
+    - title: Two-fluid simulation
       items:
-        - Description 1.
-        - Description 2.
-
+        - Level-set methods
+        - FLoating rigid-bodies
+    - title: Isogeometric analysis
+      items:
+        - Div-conforming elements
+        - Implementation
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Rowing
+    - FPV Drones
+    - RC-cars/planes/boats
